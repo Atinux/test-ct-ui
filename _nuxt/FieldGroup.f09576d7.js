@@ -1,1 +1,0 @@
-import{k as t,b as d,c as i,K as r}from"./entry.62cc1941.js";const s={},c={class:"mt-5 space-y-5 divide-y divide-gray-200 dark:divide-gray-800 [&>div]:pt-5 [&>div:first-child]:pt-0 [&>div:first-child]:mt-0"};function a(e,o){return d(),i("div",c,[r(e.$slots,"default")])}const l=t(s,[["render",a]]);export{l as default};
