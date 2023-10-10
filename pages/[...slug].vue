@@ -1,6 +1,6 @@
 <script setup>
 const route = useRoute()
-const { data } = await useAsyncData(() => queryContent(route.params.slug).findOne())
+const { data } = await useAsyncData(() => queryContent(...(route.params.slug || ['/'])).findOne())
 
 useSeoMeta({
   title: () => data.value?.title || 'Missing title',
@@ -9,10 +9,11 @@ useSeoMeta({
 </script>
 
 <template>
-  <UMain>
+  <UMain v-if="data">
     <UPageHeader :title="data.title" :description="data.description" />
     <UPageBody prose>
       <ContentRenderer :value="data" />
     </UPageBody>
   </UMain>
+  <UPageHeader title="Page not found" v-else />
 </template>

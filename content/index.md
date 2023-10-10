@@ -10,3 +10,5 @@ Welcome to my blog
 ## Test
 
 [About](/about).
+
+[/foo/bar](/foo/bar).
