@@ -1,1 +1,0 @@
-import{_ as t,o as d,c as i,m as r}from"./entry.64a14a2b.js";const s={},c={class:"mt-5 space-y-5 divide-y divide-gray-200 dark:divide-gray-800 [&>div]:pt-5 [&>div:first-child]:pt-0 [&>div:first-child]:mt-0"};function o(e,a){return d(),i("div",c,[r(e.$slots,"default")])}const l=t(s,[["render",o]]);export{l as default};
