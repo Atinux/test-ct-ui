@@ -3,6 +3,6 @@ title: Hello World
 description: Welcome to my blog
 ---
 
-::callout
+::PageCard{to="/posts/first-post"}
 Welcome to my blog
 ::
